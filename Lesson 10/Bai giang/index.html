@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width ,initial=scale-1">
+	<title>Quan ly san pham</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="card-header">
+			Nhap thong tin san pham
+		</div>
+		<div class="card-body">
+			<form method="post">
+				<div class="form-group">
+					<label>Ten san pham</label>
+					<input type="text" name="product_name" placeholder="Nhap ten san pham">
+				</div>
+				<div class="form-group">
+					<label>Danh muc san pham</label>
+					<select name="category_name">
+						<option value="">Lua chon</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label>Gia</label>
+					<input type="number" name="Price_name" id="price_id" placeholder="Nhap gia">
+				</div>
+				<div class="form-group">
+					<label>So luong</label>
+					<input type="number" name="Quanity_name" placeholder="Nhap so luong" id="Quanity_id">
+				</div>
+				<div class="form-group">
+					<label>Tong tien</label>
+					<input type="number" name="Total Price" id="totalPrice_id">
+				</div>
+				<div class="form-group">
+					<label>Ten hang</label>
+					<select>
+						<option value="">Lua chon</option>
+					</select>
+				</div>
+				<div class="btn-success">
+					<button>Them san pham</button>
+				</div>
+				<div class="btn-warning">
+					<button>Reset</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
+
+
+

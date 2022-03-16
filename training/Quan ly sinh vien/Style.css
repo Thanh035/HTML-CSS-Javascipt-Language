@@ -1,0 +1,47 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 100%;
+	display: block;
+}
+.card-header{
+	color: white;
+	background-color: hsl(134deg 61% 41%);
+	padding: 20px;
+}
+.card-body{
+	font-size: 20px;
+}
+.form-group{
+	margin: 30px;
+}
+.form-control{
+	display: block;
+	margin-top: 15px;
+	padding:10px;
+	width: 100%;
+}
+.btn  ,#edit ,#delete{
+	cursor: pointer;
+	border:none;
+	padding: 15px;
+}
+.btn-success{
+	color: white;	
+	background-color: hsl(134deg 61% 41%);
+}
+.btn-warning{
+	background-color: hsl(45deg 100% 51%);
+}
+#edit{
+	background-color: orange;
+}
+#delete{
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+
+

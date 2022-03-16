@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width ,initial-scale=1">
+	<title>Quan ly sinh vien</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+<div class="container">
+	<div class="card-header">
+		Dang ky Tai Khoan User
+	</div>
+	<div class="card-body">
+		<form method="post" onsubmit="return saveData();">
+			<div class="form-group">
+				<label>User Name:</label>
+				<input required type="text" id="username_id" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Full Name:</label>
+				<input required type="text" id="fullname_id" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Email:</label>
+				<input required type="text" id="email_id" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Birthday:</label>
+				<input required type="date" id="birthday_id" class="form-control">
+			</div>
+			<div class="form-group">
+				<button class="btn btn-success" type="submit">Save</button>
+				<button class="btn btn-warning" type="button">Reset</button>
+			</div>
+		</form>
+	</div>
+</div>
+<div class="container">
+	<table cellpadding="10" border="1" width="100%">
+		<thead style="background-color: green;">
+			<tr>
+				<th>No</th>
+				<th>User Name</th>
+				<th>Full Name</th>
+				<th>Email</th>
+				<th>Birthday</th>
+				<th></th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody id="result">
+			
+		</tbody>
+	</table>
+</div>
+<script src="Js.js"></script>
+</body>
+</html>

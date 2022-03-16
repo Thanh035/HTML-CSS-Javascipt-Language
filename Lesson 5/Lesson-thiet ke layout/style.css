@@ -1,0 +1,107 @@
+.container,.header,.main-content,.footer{
+	width: 100% !important;
+}
+/*Tao khung thiet ke */
+.header{
+	height: 125px;
+	border: solid red 2px;
+}
+
+.navbar-content{
+	margin: 0px auto;
+	width: 80%;
+}
+.navbar-content img{
+	height: 60px;
+	float: left;
+}
+.navbar-content button{
+	background-color: transparent;
+	font-size: 15px;
+	border: solid #e3e3e3 2px;
+	margin-top: 18px;
+	margin-left: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.navbar-content label{
+	background-color: transparent;
+	font-size: 15px;
+	border: solid #e3e3e3 2px;
+	margin-top: 18px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.navbar-content a{
+	margin-left: 50px;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navbar-content input{
+	background-color: #bab9b5;
+	font-size: 15px;
+	border: solid #e3e3e3 2px;
+	margin-top: 18px;
+	margin-left: 50px;
+	cursor: pointer;
+	padding: 10px;
+	color: black;
+}
+
+.menubar{
+	
+	border: solid brown 2px;
+	margin-bottom: 5px;
+}
+.menubar ul{
+	list-style-type: none;
+	display: flex;
+	margin:0px;
+	padding: 0px;
+	background-color: red;
+	color: white!important;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.menubar li{
+	padding: 10px;
+	cursor: pointer;
+}
+.menubar ul li:hover{
+	background-color: #801217;
+}
+
+.main-content{
+	height: 800px;
+	border: solid blue 2px; ;
+}
+
+.footer{
+	height: 200px;
+	
+}
+.footer img{
+	margin-left: 150px;
+}
+.footer label{
+	margin-left: -250px;	
+}
+.main-content{
+	display: flex;
+}
+.p40{
+	text-align: center;
+	width: 40%;
+	padding: 20px;
+	float: flex;
+	border-left: solid #e3e3e3 2px;
+}
+.justify-content{
+	display: flex;
+}
+.p60{
+	width: 60%;
+	padding: 60px;
+	border-left: solid #e3e3e3 2px;
+}

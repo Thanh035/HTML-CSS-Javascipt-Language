@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width ,initial-scale=1">
+	<title>Student registration form</title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;
+		}
+		.container{
+			width: 800px;
+			margin: 0px auto;
+		}
+		h1{
+			text-decoration: underline;
+			text-transform: uppercase;
+			color: violet;
+			text-align: center;
+		}
+		.navbar{
+			background-color: violet;
+			color: white;
+		}
+		label{
+			text-transform: uppercase;
+			width: 25%;
+			float: left;
+		}
+		.form-group{
+			padding: 15px;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<h1>student registration form</h1>
+	<div class="navbar">
+		<form method="post">
+			<div class="form-group">
+				<label>first name</label>
+				<input required type="text" class="form-control" pattern="[A-Za-Z]" maxlength="30">
+				(max 30 characters a-z and A-Z)
+			</div>
+			<div class="form-group">
+				<label>last name</label>
+				<input required type="text" class="form-control" pattern="[A-Za-Z]" maxlength="30">
+				(max 30 characters a-z and A-Z)
+			</div>
+			<div class="form-group">
+				<label>date of birth</label>
+				<select id="day_id">
+					<option>Day</option>
+				</select>
+				<select id="month_id">
+					<option>Month</option>
+				</select>
+				<select id="year_id">
+					
+				</select>
+			</div>
+			<div class="form-group">
+				<label>email id</label>
+				<input required type="email" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>mobile number</label>
+				<input required type="text" class="form-control" pattern="{10}" maxlength="10">
+				(10 digit number)
+			</div>
+			<div class="form-group">
+				<label>gender</label>
+				Male<input required type="radio" name="gender" class="form-control"  value="male">
+				Female<input required type="radio" name="gender" class="form-control"  value="female">
+			</div>
+			<div class="form-group">
+				<label>address</label>
+				<textarea required style="padding: 20px"></textarea>
+			</div>
+			<div class="form-group" style="text-align: center;">
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</div>
+		</form>
+	</div>
+</div>
+<script type="text/javascript">
+	var yearTag = document.getElementById('year_id')
+	yearTag.innerHTML = '<option>Year</option>'
+
+	for(var year=1980;year<=2000;year++){
+		yearTag.innerHTML +=
+		`
+			<option value="${year}">${year}</option>
+		`
+	}
+
+	var monthTag = document.getElementById('month_id')
+	monthTag.innerHTML = '<option>Month</option>'
+
+	for(var month=1;month<=12;month++){
+		monthTag.innerHTML +=
+		`
+			<option value="${month}">${month}</option>
+		`
+	}
+
+	var dayTag = document.getElementById('day_id')
+	dayTag.innerHTML = '<option>Day</option>'
+
+	for(var day=1;day<=30;day++){
+		dayTag.innerHTML +=
+		`
+			<option value="${day}">${day}</option>
+		`
+	}
+	
+</script>
+</body>
+</html>

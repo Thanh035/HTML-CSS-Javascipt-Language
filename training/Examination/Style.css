@@ -1,0 +1,57 @@
+body{
+	margin: 0px;
+	padding: 0pc;
+}
+div{
+	display: block;
+}
+
+.container{
+	width: 100%;
+}
+.card-header{
+	background-color: hsl(203deg 100% 37%);
+	color: white;
+}
+ul{
+	list-style-type: none;
+	display: flex;
+	margin: 0px;
+}
+li{
+	padding: 20px;
+}
+li:hover{
+	background-color: hsl(212deg 44% 36%);
+}
+.card-body{
+
+}
+.left-nav{
+	float: left;
+	margin: 20px;
+	border:solid black 1px;
+	background-color: hsl(0deg 0% 97%);
+	padding-right: 150px;
+}
+.right-nav{
+	float: left;
+}
+p{
+	display: block;
+	margin: 20px;
+	border-bottom: solid black 1px;
+}
+.form-row{
+	display: flex;
+	border-bottom: solid black 1px;
+	margin-bottom: 30px;
+}
+.content{
+	margin-left: 15px;
+}
+button{
+	background-color: blue;
+	color: white;
+}
+button,

@@ -1,0 +1,11 @@
+.body{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	display: block;
+}
+.header{
+	background-color: green;
+	height: 200px;
+}

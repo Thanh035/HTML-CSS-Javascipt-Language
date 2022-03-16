@@ -1,0 +1,50 @@
+.container{
+	width: 600px;
+	margin:0px auto;
+	border:solid red 2px;
+}
+.card-header{
+	background-color: blue;
+	padding: 8px;
+
+}
+.card-body{
+	padding: 10px;
+}
+.form-group{
+	display: block;
+	font-weight: bold;
+}
+.form-control{
+	width: 96%;
+	margin: 0px;
+	font-size: 16px;
+}
+.btn-success{
+	background-color: green;
+	border: none;
+	font-size: 16px;
+	color: white;
+	padding: 8px;
+	cursor: pointer;
+}
+.btn-success:hover{
+	background-color: yellow;
+}
+.btn-warning{
+	 background-color: orange;
+}
+.btn-warning{
+	 background-color: pink;
+}
+table{
+	width: 100%;
+
+}
+table,th,td{
+	border: solid grey 2px;
+}
+
+
+
+
